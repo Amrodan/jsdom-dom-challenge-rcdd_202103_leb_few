@@ -5,15 +5,15 @@ let minus = document.getElementById('minus');
 let heart = document.getElementById('heart');
 let pause = document.getElementById("pause");
  let submit = document.getElementById("submit");
-
-
 let count=0;
 let clock = true;
+
 let counter = setInterval(timer, 1000);
+
         function timer(){
-                 if(clock){
-                 document.getElementById("counter").innerHTML = counter  ;
-                 counter++;  }
+                          if(clock){
+document.getElementById("counter").innerHTML = counter  ;
+                          counter++;  }
                };
 
 
